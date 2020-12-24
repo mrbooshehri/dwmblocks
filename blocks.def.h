@@ -2,6 +2,8 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "date '+%b %d %H:%M'",					60,		0},
+	{"墳  ", "~/scripts/dwmblocks/volume.sh",			0,		0},
+	{"", "~/scripts/dwmblocks/bluetooth.sh",			0,		0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
